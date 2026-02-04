@@ -25,3 +25,7 @@ python3 -m pip install torch torchvision torchaudio pytorch-triton-xpu --index-u
 cd torchcomms && pip install . --no-build-isolation && cd ..
 
 python3 -c "import torch; import torchcomms; print(f'Torch version: {torch.__version__}')"
+
+#Run Python Integration Tests
+echo "Running XCCL integration tests..."
+comms/torchcomms/scripts/run_tests_integration_xccl.py.sh
