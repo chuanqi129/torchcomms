@@ -28,4 +28,4 @@ python3 -c "import torch; import torchcomms; print(f'Torch version: {torch.__ver
 
 #Run Python Integration Tests
 echo "Running XCCL integration tests..."
-comms/torchcomms/scripts/run_tests_integration_xccl.py.sh
+comms/torchcomms/scripts/run_tests_integration_xccl_py.sh
